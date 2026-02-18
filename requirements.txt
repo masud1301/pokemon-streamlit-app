@@ -1,5 +1,25 @@
+#Streamlit is used to build a web UI for your python app.
+#Streamlit also creates buttons, sliders, and other interactive widgets that can be used to create a user-friendly interface for your app.
+
 streamlit==1.54.0
 pandas==2.3.3
 numpy==2.4.2
 matplotlib==3.10.8
 pillow==12.1.1
+
+#langchain is a framework for building applications with LLMs. 
+#we are using community for extra integration and core for the main functionality of langchain.
+#Ollama connectors, document loaders, huggingface, and other tools are in the community package.
+
+langchain.community==0.0.1
+
+#core building blocks of langchain, including the main LLM interface, prompt templates, output parsers, and other core components.
+
+langchain.core==0.0.1
+
+#ollama is a tool that allows you to run LLMs locally on your machine.
+#Langchains talks to ollama to get responses from the LLM, --> ollama runs the LLM and returns the responses back to langchain.
+
+ollama==0.1.0
+
+# In one line streamlit --> build the web UI, langchain --> connect to the LLM and manage the conversation,core --> local LLM runner and ollama --> run the LLM locally on your machine.
