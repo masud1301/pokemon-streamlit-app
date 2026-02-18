@@ -1,11 +1,11 @@
 # Streamlit + langchain + Ollama (LLLM : gemma2:2b)
 
 import os
-import streamlit as st
+import streamlit as st # type: ignore
 
-from langchain_community.llms import Ollama
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import StrOutputParser
+from langchain_community.llms import Ollama # type: ignore
+from langchain_core.prompts import ChatPromptTemplate # type: ignore
+from langchain_core.output_parsers import StrOutputParser # type: ignore
 
 # --------- Gradient Background Styling ---------
 st.markdown(
